@@ -6,4 +6,12 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+
+}
+
+.my-hover{
+  @apply transition-all duration-500 ease-in
+}
+.span-gray{
+  @apply font-light text-gray-600 ml-1
 }

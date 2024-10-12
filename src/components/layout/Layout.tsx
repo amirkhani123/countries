@@ -9,7 +9,7 @@ function Layout({
   return (
     <>
     <Header/>
-    <div className="h-screen dark:text-white dark:bg-gray-900">{children}</div>
+    <div className="min-h-screen">{children}</div>
     <Footer/>
     </>
   )

@@ -9,6 +9,9 @@ const config: Config = {
   darkMode:"class",
   theme: {
     extend: {
+      boxShadow:{
+        "3xl":"1px 1px 10px -1px rgba(89,76,89,1)"
+      }
     },
   },
   plugins: [],

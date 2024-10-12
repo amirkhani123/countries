@@ -14,7 +14,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${vazirMatn.className}  antialiased`}
+        className={`${vazirMatn.className}  antialiased  dark:text-white dark:bg-gray-900 bg-stone-100`}
       >
         <Layout>
         {children}
