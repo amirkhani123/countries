@@ -15,3 +15,6 @@
 .span-gray{
   @apply font-light text-gray-600 ml-1
 }
+.classes-li{
+  @apply text-left  my-hover hover:bg-gray-700 cursor-pointer rounded-sm p-1 px-2 hover:text-white
+}

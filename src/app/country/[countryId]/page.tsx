@@ -10,8 +10,7 @@ interface Icountry{
 
 async function page({params}:Icountry) {
   try {
-    const {data}= await api.get<ICountryData>(`http://localhost:5000/countries/${params.countryId}`);
-   
+    const {data}= await api.get<ICountryData>(`/countries/${params.countryId}`);
     return (
       <Country data={data}/>
     )

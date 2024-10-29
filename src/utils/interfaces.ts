@@ -26,7 +26,9 @@ export interface ICountryData{
           name:string
         }[]
         borders:string[]
-    
-       
   }
   
+export  interface Iquery{
+    name:string,
+    region:string
+  }
