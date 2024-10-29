@@ -19,8 +19,8 @@ function HomePage({items}:homePageProps) {
     params.set("name",query.name);
     params.set("region",query.region);
     window.history.replaceState({}, '', `${window.location.pathname}?${params.toString()}`);
-    let {name,region}=query;
-    let filterData=items.filter(i=>{
+    const {name,region}=query;
+    const filterData=items.filter(i=>{
       const filterName= name.length ? i.name.includes(name): true;
       const filterRegion=region==="All" || !region.length ? true: i.region===region  ;    
       if(name && region && filterName && filterRegion){

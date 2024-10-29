@@ -1,6 +1,6 @@
 "use client"
 import { Iquery } from "@/utils/interfaces";
-import React, { useState } from "react";
+import React from "react";
 import { IoSearch } from "react-icons/io5";
 interface IfilterTemplate{
   query:Iquery;
